@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81EC97D61A73745200A9B3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC97D51A73745200A9B3F1 /* AppDelegate.swift */; };
+		81EC97D81A73745200A9B3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC97D71A73745200A9B3F1 /* ViewController.swift */; };
+		81EC97DA1A73745200A9B3F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EC97D91A73745200A9B3F1 /* Images.xcassets */; };
+		81EC97DD1A73745200A9B3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EC97DB1A73745200A9B3F1 /* Main.storyboard */; };
+		81EC97E91A73745200A9B3F1 /* OmniFocus_to_RTM_SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC97E81A73745200A9B3F1 /* OmniFocus_to_RTM_SyncTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81EC97E31A73745200A9B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EC97C81A73745100A9B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EC97CF1A73745200A9B3F1;
+			remoteInfo = "OmniFocus-to-RTM Sync";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81EC97D01A73745200A9B3F1 /* OmniFocus-to-RTM Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OmniFocus-to-RTM Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EC97D41A73745200A9B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EC97D51A73745200A9B3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81EC97D71A73745200A9B3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81EC97D91A73745200A9B3F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81EC97DC1A73745200A9B3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81EC97E21A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OmniFocus-to-RTM SyncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EC97E71A73745200A9B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EC97E81A73745200A9B3F1 /* OmniFocus_to_RTM_SyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniFocus_to_RTM_SyncTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81EC97CD1A73745200A9B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EC97DF1A73745200A9B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81EC97C71A73745100A9B3F1 = {
+			isa = PBXGroup;
+			children = (
+				81EC97D21A73745200A9B3F1 /* OmniFocus-to-RTM Sync */,
+				81EC97E51A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests */,
+				81EC97D11A73745200A9B3F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81EC97D11A73745200A9B3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81EC97D01A73745200A9B3F1 /* OmniFocus-to-RTM Sync.app */,
+				81EC97E21A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81EC97D21A73745200A9B3F1 /* OmniFocus-to-RTM Sync */ = {
+			isa = PBXGroup;
+			children = (
+				81EC97D51A73745200A9B3F1 /* AppDelegate.swift */,
+				81EC97D71A73745200A9B3F1 /* ViewController.swift */,
+				81EC97D91A73745200A9B3F1 /* Images.xcassets */,
+				81EC97DB1A73745200A9B3F1 /* Main.storyboard */,
+				81EC97D31A73745200A9B3F1 /* Supporting Files */,
+			);
+			path = "OmniFocus-to-RTM Sync";
+			sourceTree = "<group>";
+		};
+		81EC97D31A73745200A9B3F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EC97D41A73745200A9B3F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81EC97E51A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				81EC97E81A73745200A9B3F1 /* OmniFocus_to_RTM_SyncTests.swift */,
+				81EC97E61A73745200A9B3F1 /* Supporting Files */,
+			);
+			path = "OmniFocus-to-RTM SyncTests";
+			sourceTree = "<group>";
+		};
+		81EC97E61A73745200A9B3F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EC97E71A73745200A9B3F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81EC97CF1A73745200A9B3F1 /* OmniFocus-to-RTM Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EC97EC1A73745200A9B3F1 /* Build configuration list for PBXNativeTarget "OmniFocus-to-RTM Sync" */;
+			buildPhases = (
+				81EC97CC1A73745200A9B3F1 /* Sources */,
+				81EC97CD1A73745200A9B3F1 /* Frameworks */,
+				81EC97CE1A73745200A9B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OmniFocus-to-RTM Sync";
+			productName = "OmniFocus-to-RTM Sync";
+			productReference = 81EC97D01A73745200A9B3F1 /* OmniFocus-to-RTM Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81EC97E11A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EC97EF1A73745200A9B3F1 /* Build configuration list for PBXNativeTarget "OmniFocus-to-RTM SyncTests" */;
+			buildPhases = (
+				81EC97DE1A73745200A9B3F1 /* Sources */,
+				81EC97DF1A73745200A9B3F1 /* Frameworks */,
+				81EC97E01A73745200A9B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EC97E41A73745200A9B3F1 /* PBXTargetDependency */,
+			);
+			name = "OmniFocus-to-RTM SyncTests";
+			productName = "OmniFocus-to-RTM SyncTests";
+			productReference = 81EC97E21A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81EC97C81A73745100A9B3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Regulator Apps";
+				TargetAttributes = {
+					81EC97CF1A73745200A9B3F1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					81EC97E11A73745200A9B3F1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 81EC97CF1A73745200A9B3F1;
+					};
+				};
+			};
+			buildConfigurationList = 81EC97CB1A73745100A9B3F1 /* Build configuration list for PBXProject "OmniFocus-to-RTM Sync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81EC97C71A73745100A9B3F1;
+			productRefGroup = 81EC97D11A73745200A9B3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81EC97CF1A73745200A9B3F1 /* OmniFocus-to-RTM Sync */,
+				81EC97E11A73745200A9B3F1 /* OmniFocus-to-RTM SyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81EC97CE1A73745200A9B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EC97DA1A73745200A9B3F1 /* Images.xcassets in Resources */,
+				81EC97DD1A73745200A9B3F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EC97E01A73745200A9B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81EC97CC1A73745200A9B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EC97D81A73745200A9B3F1 /* ViewController.swift in Sources */,
+				81EC97D61A73745200A9B3F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EC97DE1A73745200A9B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EC97E91A73745200A9B3F1 /* OmniFocus_to_RTM_SyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81EC97E41A73745200A9B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EC97CF1A73745200A9B3F1 /* OmniFocus-to-RTM Sync */;
+			targetProxy = 81EC97E31A73745200A9B3F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81EC97DB1A73745200A9B3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81EC97DC1A73745200A9B3F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81EC97EA1A73745200A9B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81EC97EB1A73745200A9B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81EC97ED1A73745200A9B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OmniFocus-to-RTM Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81EC97EE1A73745200A9B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OmniFocus-to-RTM Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81EC97F01A73745200A9B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OmniFocus-to-RTM SyncTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniFocus-to-RTM Sync.app/Contents/MacOS/OmniFocus-to-RTM Sync";
+			};
+			name = Debug;
+		};
+		81EC97F11A73745200A9B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OmniFocus-to-RTM SyncTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniFocus-to-RTM Sync.app/Contents/MacOS/OmniFocus-to-RTM Sync";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81EC97CB1A73745100A9B3F1 /* Build configuration list for PBXProject "OmniFocus-to-RTM Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EC97EA1A73745200A9B3F1 /* Debug */,
+				81EC97EB1A73745200A9B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EC97EC1A73745200A9B3F1 /* Build configuration list for PBXNativeTarget "OmniFocus-to-RTM Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EC97ED1A73745200A9B3F1 /* Debug */,
+				81EC97EE1A73745200A9B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81EC97EF1A73745200A9B3F1 /* Build configuration list for PBXNativeTarget "OmniFocus-to-RTM SyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EC97F01A73745200A9B3F1 /* Debug */,
+				81EC97F11A73745200A9B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81EC97C81A73745100A9B3F1 /* Project object */;
+}

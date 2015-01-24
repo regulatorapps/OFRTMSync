@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A5108A0-41E4-4C0B-A717-D004A08555AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OmniFocus-to-RTM Sync</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B9F1F5C3B1D6F94C219E42661989EB742E33B450</key>
+		<string>https://github.com/regulatorapps/OFRTMSync</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OmniFocus-to-RTM Sync/OmniFocus-to-RTM Sync.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B9F1F5C3B1D6F94C219E42661989EB742E33B450</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/regulatorapps/OFRTMSync</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B9F1F5C3B1D6F94C219E42661989EB742E33B450</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B9F1F5C3B1D6F94C219E42661989EB742E33B450</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OFRTMSync</string>
+		</dict>
+	</array>
+</dict>
+</plist>
